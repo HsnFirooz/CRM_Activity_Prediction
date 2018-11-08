@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 import pandas as pd
 
-DATASET_PATH = "/Users/HsnFirooz/Downloads/1/"
+DATASET_PATH = ""
 
 def load_dataset():
     data = pd.read_csv(DATASET_PATH + "x_train.txt", sep=',', header=None).values
